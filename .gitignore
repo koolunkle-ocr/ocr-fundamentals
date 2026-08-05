@@ -1,0 +1,65 @@
+# =========================================================================
+# GLOBAL & ENVIRONMENT CONFIGURATIONS
+# =========================================================================
+
+# --- Build Tool: Gradle ---
+**/.gradle/
+**/build/
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# --- IDE: IntelliJ IDEA ---
+.idea/
+**/.idea/
+*.iws
+*.iml
+*.ipr
+**/out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# --- IDE: VS Code ---
+.vscode/
+**/.vscode/
+
+# --- IDE: STS (Eclipse) ---
+**/.apt_generated
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings/
+**/.springBeans
+**/.sts4-cache
+**/bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# --- IDE: NetBeans ---
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# --- OS Generated Files ---
+.DS_Store
+**/Thumbs.db
+
+
+# =========================================================================
+# PROJECT & MODULE CONFIGURATIONS
+# =========================================================================
+
+# --- Module: paddleocr-djl ---
+paddleocr-djl/HELP.md
+paddleocr-djl/debug_images/
+
+# --- Module: paddleocr-onnx ---
+paddleocr-onnx/data/
+paddleocr-onnx/vis/
+paddleocr-onnx/rapidocr/
+paddleocr-onnx/*.onnx
+paddleocr-onnx/*.tif
+paddleocr-onnx/*.tiff
+paddleocr-onnx/*.pdf
